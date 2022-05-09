@@ -1,22 +1,27 @@
 import styled from "styled-components";
 
 const Input = styled.input`
-  width: 326px;
-  height: 58px;
-  margin-bottom: 6px;
-  padding: 10px;
-  border: 1px solid #D5D5D5;
+  width: 100%
+  padding: 15px 16px;
   border-radius: 5px;
+  all: unset;
+  
   background-color:#FFFFFF;
   font-size: 20px;
   line-height: 23.48px;
+  font-family: 'Raleway', sans-serif;
 
-  &::placeholder{
+  ::placeholder{
     color: #000000;
     text-align: left;
+    font-family: 'Raleway', sans-serif;
   }
 `;
 
 export default Input;
 
+  
 
+
+
+ 

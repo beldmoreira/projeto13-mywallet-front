@@ -5,5 +5,6 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0px 25px;
   `;
 export default Container;  
