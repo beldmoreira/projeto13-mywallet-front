@@ -8,6 +8,12 @@ width: 100%;
 border-radius: 5px;
 background-color: #A328D6;
 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 32px;
+padding: 10px;
+
 color: #FFFFFF;
 font-size: 17px;
 font-weight: 700;
